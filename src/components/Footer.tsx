@@ -7,7 +7,7 @@ const Footer = () => {
             Manoel Armenteiro Diger Neto
           </h3>
           <p className="text-muted-foreground mt-2">
-            Gestor em Logística e Transportes | Desenvolvedor Full Stack
+            Gestor em Logística e Transportes | Business Intelligence | Programação Aplicada
           </p>
         </div>
         

@@ -6,7 +6,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: 'Análise de Transporte',
-      description: 'Análise completa de operações de transporte, incluindo performance da frota, controle de entregas, custos e gestão de fretes por transportadora.',
+      description: 'Análise completa de operações de transporte, controle de entregas, custos e gestão de fretes por transportadora.',
       iframe: 'https://app.powerbi.com/view?r=eyJrIjoiYmVlMjYwNGUtMjQyMC00YWRmLTliY2EtMTk5MmQ3ODk2ZDVlIiwidCI6IjAxOTZiNzIwLTk5MzMtNGI1Yi1iNzRiLTljMDU0YjFkNGI2YSJ9',
       type: 'dashboard'
     },

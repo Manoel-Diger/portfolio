@@ -20,10 +20,10 @@ const ContactSection = () => {
     },
     {
       icon: Linkedin,
-      label: 'LinkedIn',
-      value: 'manoel-armenteiro',
-      href: 'https://www.linkedin.com/in/manoel-armenteiro/',
-      color: 'text-blue-600',
+      label: 'LinkedIn',
+      value: 'manoel-diger', // Alteração opcional, mas recomendada
+      href: 'https://www.linkedin.com/in/manoel-diger', // <-- URL atualizada aqui
+      color: 'text-blue-600',
     },
   ];
 
