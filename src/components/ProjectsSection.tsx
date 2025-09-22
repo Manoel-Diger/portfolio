@@ -34,6 +34,13 @@ const ProjectsSection = () => {
       github: 'https://github.com/Manoel-Diger/Mdpizza.git',
       type: 'fullstack'
     },
+    { 
+      title: 'Gestão de Frota',
+      description: 'Sistema de gestão de frotas com dashboard, cadastro de veículos, motoristas, manutenções e relatórios. Projeto desenvolvido com React, TypeScript, Tailwind e Shadcn/UI, servindo como base para futura integração com back-end.',
+      vercel: 'https://frotagestao.vercel.app/',
+      github: 'https://github.com/Manoel-Diger/gestao-frota/',
+      type: 'frontend'
+    },
   ];
 
   return (
@@ -112,6 +119,24 @@ const ProjectsSection = () => {
                             >
                               <Github className="w-4 h-4" />
                               GitHub
+                            </a>
+                          </Button>
+                        )}
+                        {project.vercel && (
+                          <Button 
+                            variant="outline"
+                            size="sm"
+                            className="border-primary/50 text-primary hover:bg-primary/10"
+                            asChild
+                          >
+                            <a 
+                              href={project.vercel} 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                              Abrir Projeto
                             </a>
                           </Button>
                         )}
