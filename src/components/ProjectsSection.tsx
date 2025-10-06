@@ -36,8 +36,8 @@ const ProjectsSection = () => {
     },
     { 
       title: 'Gestão de Frota',
-      description: 'Sistema de gestão de frotas com dashboard, cadastro de veículos, motoristas, manutenções e relatórios. Projeto desenvolvido com React, TypeScript, Tailwind e Shadcn/UI, servindo como base para futura integração com back-end.',
-      vercel: 'https://frotagestao.vercel.app/',
+      description: 'Sistema completo de gestão de frotas, com dashboard dinâmico e módulos para cadastro de veículos, motoristas, manutenções e relatórios. Desenvolvido com React, TypeScript, Tailwind e Shadcn/UI, e integrado a um back-end responsável pelo armazenamento e tratamento dos dados. O projeto encontra-se em fase de desenvolvimento, com os últimos ajustes sendo realizados.',
+      vercel: 'https://gestao-frota-ld3z.vercel.app/',
       github: 'https://github.com/Manoel-Diger/gestao-frota/',
       type: 'frontend'
     },
